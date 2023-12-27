@@ -10,3 +10,5 @@ This project is a stock predictor that uses uagent library to predict the high p
 - Arsallan Shahab
 - Indrajit Ari
 - Debjit Ganguly
+
+### Team ID - Hack-230585
