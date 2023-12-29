@@ -38,13 +38,13 @@ async def show_choices(ctx: Context, sender, choice_agent=Choice):
 async def choice(ctx: Context, sender, choice: Choice):
     if (choice.choice == 1):
         for stock in stocks_name.stock_companies:
-            print(stock["company"], stock["symbol"])
+            print(stock["company"], "- symbol:", stock["symbol"])
         await ctx.send(choice_agent.address, Choice(choice=0))
     if (choice.choice == 2):
-        sk_name = input("Enter the Stock Name: ")
+        sk_name = input("Enter the Stock Symbol: ")
         await ctx.send(stock_info.address, StockName(name=sk_name))
     if (choice.choice == 3):
-        sk_name = input("Enter the Stock Name: ")
+        sk_name = input("Enter the Stock Symbol: ")
         await ctx.send(predict_stock_price.address, StockName(name=sk_name))
     if (choice.choice == 4):
         api.top_gainers()

@@ -27,3 +27,5 @@ indicators to provide insights and investment recommendations.
 - Debjit Ganguly
 
 ### Team ID - Hack-230585
+
+**Note:** Please wait for the data to load, it may take 10-15 seconds.
